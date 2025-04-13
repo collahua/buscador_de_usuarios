@@ -208,7 +208,7 @@
 } 
 
 .tarjeta_usuario p {
-    margin-left: 10px; /* Agrega margen alrededor del texto */
-    padding: 5px; /* Opcional: agrega un poco de espacio dentro del borde del p */
-    color: #fff; /* Asegúrate de que el texto sea legible */
+    margin-left: 10px;
+    padding: 5px; 
+    color: #fff;
 }

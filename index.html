@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+
+        <!-- Contenedor para registrar usuario -->
+        <div class="content_registrarUsuario" tabindex="0">
+            <label class="label1">Registrar usuario</label>
+            <div class="cuadro_section">
+                <div class="ingresar_nombre">
+                    <label class="label2">Name</label>
+                    <input type="text" class="input1" id="input1" tabindex="1">
+                </div>
+                <div class="ingresar_usuario">
+                    <label class="label3">User</label>
+                    <input type="text" class="input2" id="input2" tabindex="2">
+                </div>
+            </div>
+            <button class="button_agregar" id="button_agregar">Add</button>
+        </div>
+
+        <!-- Contenedor para buscar usuario -->
+        <div class="content_buscador" tabindex="0">
+            <label class="label_buscador">Buscar usuario</label>
+            <div class="buscador_section">
+                <input type="text" class="input_buscador" id="input_buscador" placeholder="Escribe aquí..." tabindex="3">
+            </div>
+            <div class="resultado_buscador" id="resultadoBuscador"></div>
+        </div>
+        
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
